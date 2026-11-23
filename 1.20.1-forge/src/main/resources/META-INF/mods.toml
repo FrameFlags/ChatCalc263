@@ -1,0 +1,26 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "MPL-2.0"
+
+[[mods]]
+modId = "chatcalc263_1201"
+version = "1.0.0"
+displayName = "Chat Calc"
+authors = "Itamio"
+description = '''
+Evaluates simple arithmetic typed in chat and returns the result. Clean-room Java implementation. Scaffold release: rules and metadata only; in-game event wiring is not included.
+'''
+
+[[dependencies.chatcalc263_1201]]
+    modId = "forge"
+    mandatory = true
+    versionRange = "[47,)"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.chatcalc263_1201]]
+    modId = "minecraft"
+    mandatory = true
+    versionRange = "[1.20.1,1.21)"
+    ordering = "NONE"
+    side = "BOTH"

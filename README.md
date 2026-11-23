@@ -1,4 +1,4 @@
-# Chat Calc — Minecraft 26.3 (all loaders)
+# Chat Calc — Minecraft 26.3 (all loaders + 1.20.1 Fabric/Forge)
 
 Evaluates simple arithmetic typed in chat and returns the result. Clean-room Java implementation. Scaffold release: rules and metadata only; in-game event wiring is not included.
 
@@ -12,6 +12,7 @@ for the distinction between compiled, loaded and functionally verified.
 ## Layout
 
 - `26.3-fabric/`, `26.3-forge/`, `26.3-neoforge/` — Minecraft 26.3, Java 25.
+- `1.20.1-fabric/`, `1.20.1-forge/` — Minecraft 1.20.1, Java 17.
 
 ## Build & tests (GitHub only)
 
